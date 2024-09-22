@@ -23,6 +23,5 @@ export default function Page() {
                 <Image src='/logo.png' width={300} height={300} alt='logo' />
             </div>
         </div>
-
     )
 }
