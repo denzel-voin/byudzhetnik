@@ -7,7 +7,7 @@ export default function Page() {
         <div className='min-h-screen grid grid-cols-1 lg:grid-cols-2'>
             <div className='h-full lg:flex flex-col items-center justify-center px-4'>
                 <div className='text-center space-y-4 pt-16'>
-                    <h1 className='font-bold text-3xl'>Добро пожаловать обратно!</h1>
+                    <h1 className='font-bold text-3xl'>Добро пожаловать!</h1>
                     <p className='text-base'>Авторизуйтесь или создайте Аккаунт для использования приложения!</p>
                 </div>
                 <div className='flex items-center justify-center mt-8'>
@@ -19,7 +19,7 @@ export default function Page() {
                     </ClerkLoading>
                 </div>
             </div>
-            <div className='h-full bg-blue-600 hidden lg:flex items-center justify-center flex-col'>
+            <div className='h-full bg-violet-800 hidden lg:flex items-center justify-center flex-col'>
                 <Image src='/logo.png' width={300} height={300} alt='logo' />
             </div>
         </div>
